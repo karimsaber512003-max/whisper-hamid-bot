@@ -7,7 +7,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "start": "npx tgcloud run",
+    "start": "npx tgcloud run schema.js",
     "deploy": "npx tgcloud push",
     "status": "npx tgcloud status",
     "run": "npx tgcloud run"
