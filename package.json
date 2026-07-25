@@ -7,7 +7,7 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "start": "tgcloud run"
+    "start": "npx tgcloud run"
     "deploy": "tgcloud push",
     "status": "tgcloud status",
     "run": "tgcloud run"
