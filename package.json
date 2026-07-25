@@ -7,10 +7,10 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "start": "npx tgcloud run schema.js",
+    "start": "npx tgcloud run handlers/schema.js",
     "deploy": "npx tgcloud push",
     "status": "npx tgcloud status",
-    "run": "npx tgcloud run"
+    "run": "npx tgcloud run handlers/schema.js"
   },
   "dependencies": {
     "@google/genai": "^2.13.0"
